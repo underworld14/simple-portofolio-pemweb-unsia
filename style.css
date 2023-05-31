@@ -1,0 +1,91 @@
+/* CSS for building CV */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #f5f5f5;
+  padding: 50px;
+  min-height: 100vh;
+}
+
+.cv-card {
+  display: flex;
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.profile-picture {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  text-align: center;
+  object-fit: cover;
+}
+
+.profile-section {
+  text-align: center;
+  width: 30%;
+  padding: 20px;
+}
+
+.chips-role {
+  display: inline-block;
+  margin-top: 6px;
+  font-size: 12px;
+  padding: 6px 12px;
+  border-radius: 24px;
+  background-color: #f5f5f5;
+}
+
+.social-list {
+  margin-top: 10px;
+  font-size: 1.3rem;
+  display: flex;
+  gap: 12px;
+  justify-content: center;
+}
+
+.personal-info-section {
+  margin-top: 40px;
+}
+
+.personal-info-section > *:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+.personal-info-item {
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.personal-info-item i {
+  margin-right: 12px;
+}
+
+.download-cv {
+  margin-top: 20px;
+  display: block;
+  background-color: #2e4dfa;
+  color: #fff;
+}
+
+.profile-description {
+  line-height: 1.8;
+}
+
+.img-gallery {
+  margin-right: 1rem;
+  width: 200px;
+  height: 200px;
+  border-radius: 10px;
+  object-fit: cover;
+}
